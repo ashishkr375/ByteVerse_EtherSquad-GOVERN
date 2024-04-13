@@ -26,7 +26,7 @@ In today's world, traditional governance processes face numerous challenges, inc
 
 ## Technologies Used
 
-- Ethereum blockchain for smart contracts.
+- Polygon for smart contracts.
 - Solidity programming language.
 - MERN stack (MongoDB, Express.js, React.js, Node.js) for full-stack development.
 - Integration with web3 wallets like MetaMask.
