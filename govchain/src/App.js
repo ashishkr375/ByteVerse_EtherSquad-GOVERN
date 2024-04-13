@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-
+import NavbarM from './components/NavbarM';
+import HomePage from './pages/HomePage';
 function App() {
   return (
     <>
-     <h1>This is GovChain website under development by team EtherSquad</h1>
+     
+     <HomePage/>
     </>
   );
 }
