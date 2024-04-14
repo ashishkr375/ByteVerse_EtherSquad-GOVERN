@@ -63,19 +63,19 @@
 
 }
 .card#card1::before {
-    background-image: url('C:\Users\Muskan\Desktop\etherSquad\ByteVerse_EtherSquad-GOVERN\govchain\src\images\img1.jpg') /* Path to your vector image for card1 */
+    background-image: url('../images/img1.jpg') /* Path to your vector image for card1 */
   }
   
   .card#card2::before {
-    background-image: url('C:\Users\Muskan\Desktop\etherSquad\ByteVerse_EtherSquad-GOVERN\govchain\src\images\img2.jpg'); /* Path to your vector image for card2 */
+    background-image: url('../images/img2.jpg'); /* Path to your vector image for card2 */
   }
   
  .card#card3::before {
-    background-image: url('C:\Users\Muskan\Desktop\etherSquad\ByteVerse_EtherSquad-GOVERN\govchain\src\images\img3.jpg'); /* Path to your vector image for card3 */
+    background-image: url('../images/img3.jpg'); /* Path to your vector image for card3 */
   }
 
   .card#card4::before {
-    background-image: url('C:\Users\Muskan\Desktop\etherSquad\ByteVerse_EtherSquad-GOVERN\govchain\src\images\img4.jpg'); /* Path to your vector image for card3 */
+    background-image: url('../images/img4.jpg'); /* Path to your vector image for card3 */
   }
 
   
@@ -105,7 +105,7 @@
   }
   .card:hover {
     background-image: opacity(0);
-  }  
+  }   
 .card:hover .content {
     transform: translateY(0px);
     opacity: 1;
