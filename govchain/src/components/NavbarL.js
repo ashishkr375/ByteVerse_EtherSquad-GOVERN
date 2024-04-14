@@ -3,10 +3,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import navlogotran from '../images/whitebgtrans.png'
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Election', href: '#', current: false },
-  { name: 'Documents', href: '#', current: false },
-  { name: 'Donation Campaign', href: '#', current: false },
+  { name: 'Home', href: 'https://govchain.netlify.app/', current: true },
+  { name: 'Election', href: 'https://govchain-election-vote.netlify.app/', current: false },
+  { name: 'Documents', href: 'https://govchain-Documents-view.netlify.app/', current: false },
+  { name: 'Donation Campaign', href: 'https://govchain-contribution-h.netlify.app/', current: false },
 ]
 
 function classNames(...classes) {

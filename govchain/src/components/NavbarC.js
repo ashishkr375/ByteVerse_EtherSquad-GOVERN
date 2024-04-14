@@ -4,10 +4,10 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import navlogotran from '../images/whitebgtrans.png'
 import { ConnectWallet } from "@thirdweb-dev/react";
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Vote', href: '#', current: false },
-  { name: 'See Projects', href: '#', current: false },
-  { name: 'Donate', href: '#', current: false },
+  { name: 'Home', href: 'https://govchain.netlify.app/', current: true },
+  { name: 'Vote', href: 'https://govchain-Documents-view.netlify.app/', current: false },
+  { name: 'See Documents', href: 'https://govchain-election-vote.netlify.app/', current: false },
+  { name: 'Donate', href: 'https://govchain-contribution.netlify.app/', current: false },
 ]
 
 function classNames(...classes) {
