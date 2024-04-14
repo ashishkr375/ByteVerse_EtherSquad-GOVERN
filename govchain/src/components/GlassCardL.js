@@ -1,12 +1,11 @@
-
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './glassCardsC.css';
+import './glassCardsL.css';
 import VanillaTilt from 'vanilla-tilt';
 
 
 
-const GlassCardC = () => {
+const GlassCardL = () => {
   useEffect(() => {
     VanillaTilt.init(document.querySelectorAll(".card"), {
       max: 25,
@@ -39,23 +38,13 @@ const GlassCardC = () => {
 <div class="card" id="card3">
   <div class="content">
     <h2>03 </h2>
-    <h3>Donate</h3>
-    <p>💰 Empower change by contributing to government initiatives or political parties through GovChain's secure donation platform – ensuring your support directly impacts positive transformation and progress! 🤝🌟 #GovChainDonations 🇺🇳💡</p>
-    <Link to="/#">Donate now</Link> 
+    <h3> Donation</h3>
+    <p>🚀 Launch your donation campaign with GovChain's innovative platform, empowering you to make a difference and drive positive change in society! 💡💰 #GovChainDonationsLaunch 🌟</p>
+    <Link to="/#">Launch Donation</Link> 
   </div>
 </div>
-
-<div class="card" id="card4">
-  <div class="content">
-    <h2>04</h2>
-    <h3>Tender</h3>
-    <p>📋 Submit your tender bids effortlessly and securely on GovChain's streamlined platform, ensuring transparency and fairness in government procurement processes! 💼💻 #GovChainTenders 🌐🛡️</p>
-    <Link to="/#">Bid now</Link> 
-  </div>
 </div>
-
-</div>
-  );
+ );
 };
 
-export default GlassCardC;
+export default GlassCardL;
