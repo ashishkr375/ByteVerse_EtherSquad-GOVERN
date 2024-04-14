@@ -41,7 +41,7 @@ const GlassCardC = () => {
     <h2>03 </h2>
     <h3>Donate</h3>
     <p>💰 Empower change by contributing to government initiatives or political parties through GovChain's secure donation platform – ensuring your support directly impacts positive transformation and progress! 🤝🌟 #GovChainDonations 🇺🇳💡</p>
-    <Link to="/#">Donate now</Link> 
+    <Link to="/Fund">Donate now</Link> 
   </div>
 </div>
 

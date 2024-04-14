@@ -5,6 +5,7 @@ import FileUpload from "./FileUpload";
 import Display from "./Display";
 import Modal from "./Modal";
 import "./File.css";
+import NavbarL from "./NavbarL";
 
 function File() {
   const [account, setAccount] = useState("");
@@ -35,7 +36,7 @@ function File() {
           Files.abi,
           signer
         );
-        //console.log(contract);
+     
         setContract(contract);
         setProvider(provider);
       } else {
@@ -45,7 +46,8 @@ function File() {
     provider && loadProvider();
   }, []);
   return (
-    <>    
+    <> 
+      <NavbarL/>
       {!modalOpen && (
         <button className="share" onClick={() => setModalOpen(true)}>
           Share

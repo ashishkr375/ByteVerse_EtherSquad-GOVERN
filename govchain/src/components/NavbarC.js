@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import navlogotran from '../images/whitebgtrans.png'
+import { ConnectWallet } from "@thirdweb-dev/react";
 const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: 'Vote', href: '#', current: false },
@@ -69,6 +70,12 @@ export default function NavbarC() {
                 </button>
 
                 {/* Profile dropdown */}
+                <ConnectWallet
+        theme="light"
+        auth={{
+          loginOptional: false,
+        }}
+      />
                 <Menu as="div" className="relative ml-3">
                   <div>
                     <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">

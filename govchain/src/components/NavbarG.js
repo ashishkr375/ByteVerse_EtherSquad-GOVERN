@@ -67,7 +67,12 @@ export default function NavbarG() {
                   <span className="sr-only">View notifications</span>
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
-
+                <ConnectWallet
+        theme="light"
+        auth={{
+          loginOptional: false,
+        }}
+      />
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
