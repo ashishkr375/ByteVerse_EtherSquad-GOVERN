@@ -5,6 +5,7 @@ import FileUpload from "./FileUpload";
 import Display from "./Display";
 import Modal from "./Modal";
 import "./File.css";
+import NavbarC from "./NavbarC";
 
 function FileC() {
   const [account, setAccount] = useState("");
@@ -45,7 +46,8 @@ function FileC() {
     provider && loadProvider();
   }, []);
   return (
-    <>    
+    <>   
+    <NavbarC/> 
       {!modalOpen && (
         <button className="share" onClick={() => setModalOpen(true)}>
           Share

@@ -40,7 +40,7 @@ const GlassCardL = () => {
     <h2>03 </h2>
     <h3> Donation</h3>
     <p>🚀 Launch your donation campaign with GovChain's innovative platform, empowering you to make a difference and drive positive change in society! 💡💰 #GovChainDonationsLaunch 🌟</p>
-    <Link to="/#">Launch Donation</Link> 
+    <Link to="/FundT">Launch Donation</Link> 
   </div>
 </div>
 </div>
